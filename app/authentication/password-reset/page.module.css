@@ -6,7 +6,7 @@
   box-shadow: var(--mantine-shadow-xl);
   border: rem(1px) solid var(--mantine-color-gray-3);
 
-  @media (max-width: $mantine-breakpoint-sm) {
+  @media (max-width: mantine-breakpoint-sm) {
     width: rem(360px);
   }
 }
@@ -17,7 +17,7 @@
 }
 
 .controls {
-  @media (max-width: $mantine-breakpoint-sm) {
+  @media (max-width: mantine-breakpoint-sm) {
     flex-direction: column-reverse;
     align-items: center;
   }
@@ -28,7 +28,7 @@
   border-radius: var(--mantine-radius-default);
   font-weight: 500;
 
-  @media (max-width: $mantine-breakpoint-sm) {
+  @media (max-width: mantine-breakpoint-sm) {
     width: 1000%;
     text-align: center;
   }

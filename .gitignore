@@ -62,3 +62,10 @@ storybook-static/
 yarn.lock
 
 # End of https://www.toptal.com/developers/gitignore/api/yarn
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
